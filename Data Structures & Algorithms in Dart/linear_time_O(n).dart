@@ -1,9 +1,9 @@
 void main() {
-  void userNames(List<String> names) {
-    for (final name in names) {
-      print(name);
+  void function(List<String> list) {
+    for (final item in list) {
+      print(item);
     }
   }
 
-  userNames(['Nesta', 'Saint. Clever', 'Parchment']);
+  function(['zero', 'one', 'two']);
 }

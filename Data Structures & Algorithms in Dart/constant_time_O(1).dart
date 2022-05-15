@@ -1,11 +1,11 @@
 void main() {
-  void firstName(List<String> names) {
-    if (names.isNotEmpty) {
-      print(names.first);
+  void function(List<String> list) {
+    if (list.isNotEmpty) {
+      print(list.first);
     } else {
-      print('no names');
+      print(null);
     }
   }
 
-  firstName(['Nesta', 'Saint. Clever', 'Parchment']);
+  function(['zero', 'one', 'two']);
 }

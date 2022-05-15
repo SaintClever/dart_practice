@@ -2,14 +2,14 @@
 
 ```dart
 void main() {
-  void printMoreNames(List<String> names) {
-    for (final _ in names) {
-      for (final name in names) {
-        print(name);
+  void function(List<String> list) {
+    for (final _ in list) {
+      for (final item in list) {
+        print(item);
       }
     }
   }
 
-  printMoreNames(['Nesta', 'Saint. Clever', 'Parchment']);
+  function(['zero', 'one', 'two']);
 }
 ```
